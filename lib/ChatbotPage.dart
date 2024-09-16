@@ -12,7 +12,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
   List<String> _messages = [];
 
   Future<void> sendMessage(String message) async {
-    String apiKey = "AIzaSyDJlJS6FmhrR_YPmQANqcjvirsoxXwA2KY";
+    String apiKey = "Your_google_api_key";
     final String baseUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
     // Prepend the user message with your specific prompt
 
